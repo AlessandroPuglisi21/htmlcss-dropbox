@@ -20,6 +20,7 @@ a {
 }
 body{
     background-color: #ffffff;
+    height: 1000000px;
 }
 :root{
     --btn-color: #0061FF;
@@ -34,12 +35,18 @@ body{
     text-align: center;
     margin: 0 auto;
 }
+.container-small{
+    max-width:1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 60px;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items:center ;
     padding: 30px 10px;
-    font-size: 18px;
+    font-size: 16px;
 }
 .nav-section-one, .nav-section-two{
     display:flex;
@@ -48,7 +55,7 @@ body{
     color: rgb(0, 0, 0);
 }
 .logo{
-    height: 30px;
+    height: 25px;
 }
 .start-button{
     background-color:var(--btn-color);
@@ -70,9 +77,9 @@ body{
     background-color: #B4D0E7;
 }
 .hero_title{
-    font-size: 70px;
+    font-size: 80px;
     padding: 0;
-    font-weight: bold;
+    font-weight: 900;
     text-align: left;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -81,11 +88,11 @@ body{
     width: 100%;
 }
 .col-66{
-    width:66.66% ;
+    width:calc((100%/3)*2) ;
 
 }
 .col-33{
-    width: 33.33%;
+    width:calc(100%/3);
 }
 .hero_image img{
    width: 100%;
@@ -108,4 +115,87 @@ body{
 .freccia{
     font-size: 80px;
     padding: 5px;
+}
+.pricing-title{
+    text-align: left;
+    font-size: 36px;
+}
+.plan_button{
+    width: 20px;
+    border-radius: 999px;
+    color: white;
+    margin-right: 8px;
+    border-style:double;
+    border-color: #b2b5b9;
+}
+.plan_button:active, .plan_button:focus{
+    background-color: #0061FF;
+}
+.plan_choice{
+    text-align: left;
+    margin-top: 50px;
+}
+.yearly_plan{
+    margin-right: 80px;
+    font-size:16px;
+}
+.monthly_plan{
+    font-size:16px;
+}
+.card{
+    border: 1px solid #DBDBDD;
+    margin-top: 50px;
+}
+.content-card{
+    border: 1px solid  #DBDBDD;
+    padding:25px ;
+    text-align: left;
+}
+.type_card{
+    padding: 10px;
+}
+.content-title{
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.price{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.time{
+    font-size: 16px;
+    margin-top: 18px;
+    color: #7f8388;
+}
+.functions{
+    margin-top: 50px;
+    font-weight: 500;
+}
+.material-symbols-outlined{
+    text-align: center;
+    font-size: 10px;
+}
+li{
+    padding-bottom: 30px;
+}
+.trial_btn30{
+    background-color: var(--btn-color);
+    color: white;
+    padding: 12px 18px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.buy-now{
+    margin-top:50px;
+}
+.buy-now-click{
+    color: #0061FF;
+    text-decoration: underline;
+}
+hr{
+    margin-right: 200px;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
