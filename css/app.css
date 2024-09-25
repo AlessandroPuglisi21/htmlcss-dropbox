@@ -4,7 +4,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family: "Open Sans", system-ui;
+}
 
 ul,
 ol {
@@ -18,4 +20,33 @@ a {
 }
 body{
     background-color: #ffffff;
+}
+:root{
+    --btn-color: #0061FF;
+}
+/* ------------------------------- */
+.container-big{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 30px 10px;
+    font-size: 18px;
+}
+.nav-section-one, .nav-section-two{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    color: rgb(0, 0, 0);
+}
+.logo{
+    height: 30px;
+}
+.start-button{
+    background-color:var(--btn-color);
+    color: white;
+    padding: 5px 15px;
 }
