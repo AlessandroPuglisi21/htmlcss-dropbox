@@ -93,6 +93,7 @@ body{
 }
 .col-33{
     width:calc(100%/3);
+    padding: 0px 15px;
 }
 .hero_image img{
    width: 100%;
@@ -150,6 +151,7 @@ body{
     border: 1px solid  #DBDBDD;
     padding:25px ;
     text-align: left;
+    position: relative;
 }
 .type_card{
     padding: 10px;
@@ -172,12 +174,9 @@ body{
     margin-top: 50px;
     font-weight: 500;
 }
-.material-symbols-outlined{
-    text-align: center;
-    font-size: 10px;
-}
-li{
+.list-specs{
     padding-bottom: 30px;
+    max-width: 600px;
 }
 .trial_btn30{
     background-color: var(--btn-color);
@@ -198,4 +197,17 @@ hr{
     margin-right: 200px;
     margin-top: 40px;
     margin-bottom: 60px;
+}
+.team{
+    padding-top: 50px;
+}
+.trial_btn_contactus{
+    background-color:var(--btn-color);
+    color: white;
+    padding: 12px 70px;
+    text-align: left;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    right: 30px;
 }
