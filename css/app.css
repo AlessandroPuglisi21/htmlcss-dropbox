@@ -31,7 +31,7 @@ body{
     margin: 0 auto;
 }
 .container-med{
-    max-width:1200px;
+    max-width:1300px;
     text-align: center;
     margin: 0 auto;
 }
@@ -97,6 +97,7 @@ body{
 }
 .hero_image img{
    width: 100%;
+   padding-right: 30px;
 }
 .hero_description{
     font-size: 18px;
@@ -210,4 +211,18 @@ hr{
     position: absolute;
     top: 50px;
     right: 30px;
+}
+.enterprise_title{
+    font-size: 24px;
+    padding-top: 50px;
+}
+.contact_description{
+    font-size: 17px;
+    margin-top: 30px;
+}
+.partner_btn{
+    text-align: left;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: white;
 }
