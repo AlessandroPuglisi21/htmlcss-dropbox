@@ -226,3 +226,6 @@ hr{
     padding: 10px 20px;
     background-color: white;
 }
+.col-2{
+    width: calc(100%/3);
+}
